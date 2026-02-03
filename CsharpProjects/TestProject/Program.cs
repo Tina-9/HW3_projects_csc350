@@ -27,6 +27,12 @@
 //**************************************//
 //* exercise unit 4 overloaded methods *//
 //**************************************//
+int number = 7;
+string text = "seven";
+Console.WriteLine(number); // calls the method that takes an int
+Console.WriteLine(); // calls the method that takes no parameters
+Console.WriteLine(text);// calls the method that takes a string 
+
 Random dice = new();// create instance of Random class
 int roll1 = dice.Next();// generate random number
 int roll2 = dice.Next(101);// generate random number between 0 and 100

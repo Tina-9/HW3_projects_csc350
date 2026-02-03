@@ -12,3 +12,4 @@
 /Users/NYC_Life/Documents/csc350/HW3_projects/CsharpProjects/TestProject/obj/Debug/net10.0/TestProject.pdb
 /Users/NYC_Life/Documents/csc350/HW3_projects/CsharpProjects/TestProject/obj/Debug/net10.0/TestProject.genruntimeconfig.cache
 /Users/NYC_Life/Documents/csc350/HW3_projects/CsharpProjects/TestProject/obj/Debug/net10.0/ref/TestProject.dll
+/Users/NYC_Life/Documents/csc350/HW3_projects/CsharpProjects/TestProject/obj/Debug/net10.0/TestProject.sourcelink.json

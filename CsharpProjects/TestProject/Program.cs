@@ -2,6 +2,16 @@
 // Console.WriteLine("Hello, World!");
 // Console.WriteLine("Hello C#!");
 
+//********************//
+//* Terminal command *//
+//********************//
+
+// 1.dotnet new console -o TestProject
+// 2.cd TestProject
+// 3.dotnet run
+
+
+
 //***************************************************//
 //* Call the methods of a .Net class Library unit 3 *//
 //***************************************************//
@@ -27,17 +37,34 @@
 //**************************************//
 //* exercise unit 4 overloaded methods *//
 //**************************************//
-int number = 7;
-string text = "seven";
-Console.WriteLine(number); // calls the method that takes an int
-Console.WriteLine(); // calls the method that takes no parameters
-Console.WriteLine(text);// calls the method that takes a string 
+// int number = 7;
+// string text = "seven";
+// Console.WriteLine(number); // calls the method that takes an int
+// Console.WriteLine(); // calls the method that takes no parameters
+// Console.WriteLine(text);// calls the method that takes a string 
 
-Random dice = new();// create instance of Random class
-int roll1 = dice.Next();// generate random number
-int roll2 = dice.Next(101);// generate random number between 0 and 100
-int roll3 = dice.Next(50, 101);// generate random number between 50 and 100
+// Random dice = new();// create instance of Random class
+// int roll1 = dice.Next();// generate random number
+// int roll2 = dice.Next(101);// generate random number between 0 and 100
+// int roll3 = dice.Next(50, 101);// generate random number between 50 and 100
 
-Console.WriteLine($"First roll: {roll1}");// display the random number
-Console.WriteLine($"Second roll: {roll2}");// display the random number
-Console.WriteLine($"Third roll: {roll3}");// display the random number
+// Console.WriteLine($"First roll: {roll1}");// display the random number
+// Console.WriteLine($"Second roll: {roll2}");// display the random number
+// Console.WriteLine($"Third roll: {roll3}");// display the random number
+
+
+
+//********************************************************//
+//* Code challenge: Implement a method of the Math class *//
+//* that returns the larger of two numbers               *//
+//********************************************************//
+
+int firstValue = 500;
+int secondValue = 600;
+
+int largerValue= Math.Max(firstValue, secondValue);
+// Console.WriteLine($"The larger value between {firstValue} and {secondValue} is {largerValue}.");
+
+Console.WriteLine(largerValue);
+
+code challenge: Implement a method of the Math class that returns the larger of two numbers   
